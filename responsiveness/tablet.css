@@ -1,0 +1,50 @@
+@media screen and (min-width: 768px){
+  .main-page .board{
+    top: 40%;
+    left: 15%;
+    width:  60%;
+    height: 15vh;
+    
+  }
+
+  .main-page .board .buttons{
+    width: 97%;
+    height: 6.3vh;
+
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+  .main-page .board{
+    top: 40%;
+    left: 15%;
+    width:  70%;
+    height: 12vh;
+  }
+
+  .main-page .board .buttons{
+    width: 97%;
+    height: 6vh;
+
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .main-page .board{
+    top: 30%;
+    left: 15%;
+    width:  70%;
+    height: 25vh;
+  }
+
+  .main-page .board  .icons{
+    margin: 23px 0 0 15px;
+  }
+
+  .main-page .board .buttons{
+    margin: 30px 0 0 15px;
+    border: none;
+    width: 50%;
+  }
+} 
