@@ -1,18 +1,14 @@
 {
-  "name": "react",
-  "version": "0.0.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
-  },
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio website",
+  "main": "app.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "brown",
+  "license": "MIT",
   "devDependencies": {
-    "react-scripts": "latest"
+    "webpack": "^5.72.1"
   }
 }
