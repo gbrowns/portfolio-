@@ -1023,3 +1023,236 @@
         }
     }
 }
+
+//tablet
+@media screen and (max-width: 768px){
+
+    body{
+        font-size: 1rem
+    }
+
+    section{
+        padding: 3rem 2rem;
+    }
+    .header{
+        padding: 0 !important;
+    }
+    //independent components
+    .controls{
+        bottom: -6%;
+        left: 0;
+    }
+
+    .control{
+        width: 45px;
+        height: 45px;
+        margin: 1rem .4rem !important;
+        i{
+            font-size: 1rem;
+        }
+    }
+
+    .btn-con{
+        align-self: center;
+    }
+
+    .main-title{
+        h2{
+            font-size: 2.5rem;
+            .bg-text{
+                display: none;
+            }
+        }
+    }
+
+    //header styles
+    .header-content{
+
+        .left-header{
+            display: none;
+        }
+
+        .right-header{
+            padding: 1rem;
+
+            .name{
+                font-size: 2rem !important;
+            }
+            p{
+                margin: 1.5rem auto;
+                width: 90%;
+                text-align: center;
+            }
+        }
+    }
+
+    //about styles
+    .about-container{ 
+        padding: 3rem 0 1rem;
+        .left-about{
+            padding-right: 0;
+            h2{
+                font-size: 1.2rem;
+                text-align: center;
+            }
+            p{
+                font-weight: lighter;
+                text-align: center;
+                
+            }
+        }
+
+        .right-about{
+            padding: 3rem 0;
+            grid-gap: 1rem;
+            .about-item{
+                .abt-text{
+                    padding: 1.2rem;
+                    .large-text{
+                        text-align: center;
+                        font-size: 3.3rem;
+                    }
+                    .small-text{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .about-stats{
+        padding-bottom: 1rem;
+    }
+
+    .timeline{
+        grid-gap: 1rem;
+        padding-bottom: 3rem;
+        .timeline-item{
+
+            .tl-icon{
+                left: -20px;
+                width: 40px;
+                height: 40px;
+                i{font-size: 1rem;}
+            }
+            .tl-duration{
+                padding: 0 1rem;
+                font-size: .7rem;
+            }
+            h5{
+                font-size: 1.1rem;
+                span{
+                    font-size: 1rem;
+                }
+            }
+            p{
+                font-size: 1rem;
+                line-height: 1.8rem;
+            }
+        }
+    }
+
+    //portfolio
+    .port-text{
+        font-size: 1rem;
+    }
+
+    .portfolios{
+        grid-gap: 1rem;
+        .portfolio-item{
+            border-radius: 5px !important;
+            img{
+                height: 320px;
+                border-radius: 5px;
+            }
+           
+        }
+    }
+
+    //blogs
+    .blogs{
+        margin-top: 2rem;
+        .blog{
+            border-radius: 3px;
+            &:hover{
+                transform: translateY(-2px);
+                img{
+                    transform: scale(1.02);
+                }
+            }
+            img{
+                height: 250px;
+            }
+            .blog-text{
+                padding: .9rem;
+                h4{
+                    font-size: 1.3rem;
+                }
+                p{
+                    padding-bottom: .5rem;
+                }
+            }
+        }
+    }
+
+    //contact section
+    .contact-content-con{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2.5rem;
+
+        .left-contact{
+            
+            h4{
+                font-size: 1.5rem;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+            .contact-info{
+                .contact-item{
+                    p{
+                        color: var(--color-grey-2);
+                        width: 70%;
+                        font-size:.8rem
+                    }
+                    .icon{
+                        i{
+                            font-size: 1rem;
+                        }
+                        span{
+                            font-size: .8rem;
+                        }
+                    }
+                }
+            }
+
+            .contact-icon{
+                margin-bottom: 2rem;
+
+                a{
+                    width: 40px;
+                    height: 40px;
+                    margin: 0 .7rem;
+                    i{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+
+        .right-contact{
+            margin-left: 0;
+            margin-bottom: 4rem;
+            .input-control{
+                input, textarea{
+                    border-radius: 5px;
+                    font-size: .8rem;
+                    padding: .5rem .8rem;
+                }
+            }
+        }
+    }
+}
