@@ -68,7 +68,7 @@ section{
     
 }
 .sec2{
-    display: none;
+    display: none; 
     transform: translateY(0) scale(1);
 
 }
@@ -166,7 +166,7 @@ section{
         .image{
             position: relative;
             border-radius: var(--br-sm-2);
-            height: 70%;
+            height: 90%;
             width: 68%;
             margin-left: 4rem;
             background-color: rgba(0, 0, 0, 0.877);
