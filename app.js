@@ -1,9 +1,9 @@
 (function(){
     /* e.preventDefault(); */
-
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener('click', function(e){
             e.preventDefault();
+            console.log(e)
             document.querySelector(".active-btn").classList.remove("active-btn");
             this.classList.add("active-btn");
             document.querySelector(".active").classList.remove("active")
