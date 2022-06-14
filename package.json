@@ -4,12 +4,13 @@
   "description": "my portfolio website",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js"
   },
   "author": "brown",
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.16",
-    "webpack": "^5.72.1"
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.10.0"
   }
 }
