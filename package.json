@@ -8,7 +8,10 @@
   },
   "author": "brown",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
+    "jquery": "^3.6.0",
+    "node-fetch": "^3.2.6",
     "nodemon": "^2.0.16",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.10.0"
