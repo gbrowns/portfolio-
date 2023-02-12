@@ -12,7 +12,7 @@
   "devDependencies": {
     "jquery": "^3.6.0",
     "node-fetch": "^3.2.6",
-    "nodemon": "^2.0.16",
+    "nodemon": "^2.0.20",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.10.0"
   }
